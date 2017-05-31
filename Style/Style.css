@@ -1,16 +1,22 @@
-div {
+div.header {
 	background-color: #222222;
-	width: 1885px;
-	padding: 10px;
+	width: 100%;
+	padding-bottom: 0.35%;
 }
 
 .bildlinks {
+	width: 100px;
+	height: 100px;
 	float: left;
-	margin-right: 10px;
+	padding-top: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
 }
 
 body {
-	background-color: white;
+	width: 100%;
+	margin: 0px;
+	background-color: black;
 	}
 
 /* header 1 & 2 */	
@@ -54,7 +60,15 @@ a {
 a.class1 {
 	font-size: 32px;
 	color: black;
+	margin-left: 0.5%;
 }
+
+a.class2 {
+	font-size: 32px;
+	color: white;
+	margin-left: 0.5%;
+}
+
 
 a.class1:link {
 	text-decoration: none;
@@ -68,10 +82,12 @@ a.class1:hover {
 }
 
 a.class2:link {
+	text-decoration: none;
 	color: white;
 }
 
 a.class2:hover {
+	text-decoration: none;
 	background-color: blue;
 }
 
@@ -91,9 +107,29 @@ p {
 	
 }
 
-table {
-	text-align: left;
-	vertical-align: center;
-	border-collapse: collapse;
+.pcBild {
+	float: top;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 1%;
+	width: 200px;
+	height: 200px;
+}
+
+.pcTitel {
+	margin: 0;
+	padding-top: 0.5%;
+}
+
+.pcOffer {
+	text-align: center;
+	width: 250px;
+	margin: 50px;
 	
+}
+
+.pcText {
+	margin: 0;
+	padding-top: 1%;
 }
