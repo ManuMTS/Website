@@ -4,6 +4,20 @@ div.header {
 	padding-bottom: 0.35%;
 }
 
+.bildmittextLinks {
+	float: left;
+	border-radius: 5px;
+	width: 450px;
+	margin-right: 20px;
+}
+
+.bildmittextRechts {
+	float: right;
+	border-radius: 5px;
+	width: 450px;
+	margin-left: 20px;
+}
+
 .bildlinks {
 	width: 100px;
 	height: 100px;
@@ -71,22 +85,42 @@ a.class2 {
 
 
 a.class1:link {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 40px 20px;
 	text-decoration: none;
 	background-color: white;
 }
 
 a.class1:hover {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 40px 20px;
 	color: white;
 	text-decoration: none;
 	background-color: blue;
 }
 
 a.class2:link {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 40px 20px;
 	text-decoration: none;
 	color: white;
 }
 
 a.class2:hover {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 40px 20px;
 	text-decoration: none;
 	background-color: blue;
 }
@@ -105,6 +139,27 @@ p {
 	font-weight: 500;
 	line-height: 26.4px;
 	
+}
+
+p.right {
+	text-align: left;
+}
+
+p.left {
+	text-align: right;
+}
+
+.menueleiste {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.btcontainer {
+	width: 900px;
+	height: 320px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .pcBild {
