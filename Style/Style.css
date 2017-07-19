@@ -1,39 +1,6 @@
-div.header {
-	background-color: #222222;
-	width: 100%;
-	padding-bottom: 0.35%;
-}
+/* --- T E X T --- */
 
-.bildmittextLinks {
-	float: left;
-	border-radius: 5px;
-	width: 450px;
-	margin-right: 20px;
-}
-
-.bildmittextRechts {
-	float: right;
-	border-radius: 5px;
-	width: 450px;
-	margin-left: 20px;
-}
-
-.bildlinks {
-	width: 100px;
-	height: 100px;
-	float: left;
-	padding-top: 1%;
-	padding-left: 1%;
-	padding-right: 1%;
-}
-
-body {
-	width: 100%;
-	margin: 0px;
-	background-color: black;
-	}
-
-/* header 1 & 2 */	
+/* Überschrift 1 */	
 h1 {
 	color: white;
 	font-family: "Usual", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -44,7 +11,7 @@ h1 {
 	font-weight: 500;
 	line-height: 26.4px;
 }
-
+/* Überschrift 2 */
 h2 {
     color: white;
 	font-family: "Usual", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -55,76 +22,7 @@ h2 {
 	font-weight: 500;
 	line-height: 26.4px;
 }
-
-/* a Links */
-a {
-	text-decoration: none;
-	margin-right: 20px;
-    color: white;
-	font-family: "Usual", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 24px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.4px;
-}
-
-/* Class1 & Class 2 ermöglichen verschiedenfarbige Links */
-
-a.class1 {
-	font-size: 32px;
-	color: black;
-	margin-left: 0.5%;
-}
-
-a.class2 {
-	font-size: 32px;
-	color: white;
-	margin-left: 0.5%;
-}
-
-
-a.class1:link {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	border-radius: 40px 20px;
-	text-decoration: none;
-	background-color: white;
-}
-
-a.class1:hover {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	border-radius: 40px 20px;
-	color: white;
-	text-decoration: none;
-	background-color: blue;
-}
-
-a.class2:link {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	border-radius: 40px 20px;
-	text-decoration: none;
-	color: white;
-}
-
-a.class2:hover {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	border-radius: 40px 20px;
-	text-decoration: none;
-	background-color: blue;
-}
-
+/* Standarttext für auf die Seite */
 p {
 	text-align: center;
 	margin-bottom: 20px;
@@ -140,20 +38,133 @@ p {
 	line-height: 26.4px;
 	
 }
-
-p.right {
+/* großere Version des Standarttextes */
+p.fett {
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 20px;
+	color: white;
+	font-family: "Usual", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 28px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26.4px;
+}
+/* linksbündiger Text */
+p.left {
 	text-align: left;
 }
-
-p.left {
+/* rechtsbündiger Text */
+p.right {
 	text-align: right;
 }
 
+/* Links zu anderen Seiten... */
+a {
+	text-decoration: none;
+	margin-right: 20px;
+    color: white;
+	font-family: "Usual", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+/* der aktuell selektierte Reiter in der Navigationsleiste */
+a.class1 {
+	font-size: 32px;
+	color: black;
+	margin-left: 0.5%;
+}
+/* alle anderen Reiter in der Navigationsleiste */
+a.class2 {
+	font-size: 32px;
+	color: white;
+	margin-left: 0.5%;
+}
+/* Standartverhalten des Links */
+a.class1:link {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 40px 20px;
+	text-decoration: none;
+	background-color: white;
+}
+/* Standartverhalten des Links */
+a.class2:link {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 40px 20px;
+	text-decoration: none;
+	color: white;
+}
+/* wenn der Mauszeiger auf den Link kommt */
+a.class1:hover {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 40px 20px;
+	color: white;
+	text-decoration: none;
+	background-color: blue;
+}
+/* wenn der Mauszeiger auf den Link kommt */
+a.class2:hover {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 40px 20px;
+	text-decoration: none;
+	background-color: blue;
+}
+
+/* --- A L L G E M E I N --- */
+
+/* fasst die Navigationsleiste zusammen */
+.header {
+	background-color: #222222;
+	width: 100%;
+	padding-bottom: 0.35%;
+}
+/* Logo neben der Überschrift */
+.bildlinks {
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding-top: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+/* der Körper der Seite */
+body {
+	width: 100%;
+	margin: 0px;
+	background-color: black;
+}
+/* beinhaltet die verschieden Navigations-Reiter in der Navigationsleiste */
 .menueleiste {
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
+/* setzt Sachen mittig */
+.mittig {
+	margin-left: auto;
+	margin-right: auto;
+}
 
+/* --- I N D E X --- */
+
+/* beinhaltet Bild mit Text daneben auf der Indexseite */
 .btcontainer {
 	width: 900px;
 	height: 320px;
@@ -161,30 +172,47 @@ p.left {
 	margin-left: auto;
 	margin-right: auto;
 }
+/* Bild mit Text auf der rechten Seite */
+.bildmittextRechts {
+	float: left;
+	border-radius: 5px;
+	width: 450px;
+	margin-right: 20px;
+}
+/* Bild mit Text auf der linken Seite */
+.bildmittextLinks {
+	float: right;
+	border-radius: 5px;
+	width: 450px;
+	margin-left: 20px;
+}
 
+/* --- S T O R E --- */
+
+
+/* Box für das PC-Bild und Text im Store */
+.pcOffer {
+	text-align: center;
+	width: 250px;
+	margin: 50px;
+}
+/* Überschrift zum PC-Bild im Store */
+.pcTitel {
+	margin: 0;
+	padding-top: 0.5%;
+}
+/* das PC-Bild in der Übersicht im Store */
 .pcBild {
 	float: top;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 1%;
+	padding-bottom: 2%;
 	width: 200px;
 	height: 200px;
 }
-
-.pcTitel {
-	margin: 0;
-	padding-top: 0.5%;
-}
-
-.pcOffer {
-	text-align: center;
-	width: 250px;
-	margin: 50px;
-	
-}
-
+/* Unterhalb des PC-Bilds im Store */
 .pcText {
 	margin: 0;
-	padding-top: 1%;
 }
