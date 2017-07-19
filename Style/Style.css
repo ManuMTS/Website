@@ -193,6 +193,9 @@ body {
 
 /* Box für das PC-Bild und Text im Store */
 .pcOffer {
+	background-color: #222222;
+	padding: 5px;
+	border-radius: 10px;
 	text-align: center;
 	width: 250px;
 	margin: 50px;
