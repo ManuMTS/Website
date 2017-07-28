@@ -36,7 +36,6 @@ p {
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
-	
 }
 /* großere Version des Standarttextes */
 p.fett {
@@ -60,6 +59,21 @@ p.left {
 /* rechtsbündiger Text */
 p.right {
 	text-align: right;
+}
+
+p.personTitel {
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	color: white;
+	font-family: "Usual", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
 }
 
 /* Links zu anderen Seiten... */
@@ -222,4 +236,18 @@ body {
 }
 
 /* --- A G B --- */
+
+
+/* --- Ü B E R  U N S --- */
+
+.person {
+	background-color: #222222;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	height: 850px;
+	width: 400px;
+	margin: 50px;
+}
+
 
