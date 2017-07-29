@@ -250,4 +250,15 @@ body {
 	margin: 50px;
 }
 
+/* --- I M P R E S S U M --- */
+
+.impressum {
+	background-color: #222222;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: left;
+	width: 500px;
+	margin: 50px;
+}
+
 
