@@ -225,6 +225,18 @@ body {
 
 /* --- S T O R E --- */
 
+table.storeT {
+	border-collapse: collapse;
+	border-color: black;
+	margin-left: auto; 
+	margin-right: auto; 
+	margin-top: 40px; 
+	background-color: #222222;
+}
+td {
+	border:2px solid black;
+}
+
 
 /* Box für das PC-Bild und Text im Store */
 .pcOffer {
