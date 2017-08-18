@@ -76,6 +76,21 @@ p.personTitel {
 	line-height: 26.4px;
 }
 
+p.fheader {
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 20px;
+	color: white;
+	font-family: "Usual", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 48px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
 /* Links zu anderen Seiten... */
 a {
 	text-decoration: none;
@@ -180,6 +195,12 @@ body {
 /* --- I N D E X --- */
 
 /* beinhaltet Bild mit Text daneben auf der Indexseite */
+.mittigIndex {
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .btcontainer {
 	width: 900px;
 	height: 320px;
@@ -270,6 +291,18 @@ textarea:focus {
 
 
 /* --- Ü B E R  U N S --- */
+
+.einleitung {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #222222;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: left;
+	width: 950px;
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
 
 .person {
 	background-color: #222222;
